@@ -1,0 +1,6 @@
+.link {
+  color: var(--fg-main-color);
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.4s;
+}

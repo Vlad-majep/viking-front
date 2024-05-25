@@ -1,0 +1,97 @@
+.first-title {
+  text-transform: uppercase;
+  margin: 0;
+  color: var(--fg-main-color);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.title {
+  margin: 0;
+  color: var(--fg-main-color);
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* ? size */
+
+.title_size_biggest {
+  font-size: 48px;
+}
+
+.text {
+  margin: 0;
+  color: var(--fg-main-color);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* ? size */
+
+.text_size_smallest {
+  font-size: 13px;
+}
+
+.text_size_smaller {
+  font-size: 14px;
+}
+
+.text_size_small {
+  font-size: 15px;
+}
+
+.text_size_medium {
+  font-size: 18px;
+}
+
+.text_size_big {
+  font-size: 20px;
+}
+
+.text_size_bigger {
+  font-size: 22px;
+}
+
+/* ? weight */
+
+.text_weight_thin {
+  font-weight: 300;
+}
+
+.text_weight_thick {
+  font-weight: 500;
+}
+
+.text_weight_thicker {
+  font-weight: 600;
+}
+
+.text_weight_thickest {
+  font-weight: 800;
+}
+
+/* ? color */
+
+.text_color_gold {
+  color: #ffed97;
+}
+
+.text_color_gold_2 {
+  color: #ffb903;
+}
+
+.text_color_active {
+  color: #b4ffc4;
+}
+
+.text_color_second {
+  color: rgba(255, 255, 255, 0.63);
+}

@@ -1,0 +1,16 @@
+.main {
+  position: relative;
+}
+
+.background {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: var(--top-bg-lg-height);
+  background: linear-gradient(
+    180deg,
+    #4e4084 -10.11%,
+    rgba(26, 28, 33, 0) 85.39%
+  );
+}

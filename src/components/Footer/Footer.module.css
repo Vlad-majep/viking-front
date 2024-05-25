@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  position: relative;
+  margin-top: auto;
+  padding: 0 0 14px;
+}
+
+.background {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: var(--bottom-bg-lg-height);
+  bottom: 0;
+  background: linear-gradient(0, #4e4084 -10.11%, rgba(26, 28, 33, 0) 85.39%);
+}
+
+.links {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  gap: 21px;
+}
+
+.text {
+  z-index: 2;
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-align: center;
+}
+
+.text_type_link {
+  color: #baa0ff;
+  font-weight: 800;
+}

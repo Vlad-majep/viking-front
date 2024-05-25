@@ -1,0 +1,16 @@
+.main {
+  border-radius: 20px;
+  background: linear-gradient(180deg, #6836f9 0%, #6166fb 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 102px;
+  height: 32px;
+}
+
+.main_size_big {
+  width: 176px;
+  height: 42px;
+  border: 1px solid #946cff;
+}

@@ -1,0 +1,41 @@
+@import url(./styles/button.css);
+@import url(./styles/link.css);
+@import url(./styles/typegrafic.css);
+
+body {
+  background: #1a1c21;
+  margin: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Inter, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  /* ? fg-color */
+  --fg-main-color: #ffffff;
+  --fg-accent-color: #baa0ff;
+
+  /* ? bg-color */
+  --bg-block-color: #2e3340;
+  --bg-accent-gradient-color: #6836f9, #6166fb;
+  --bg-accent-color: #6166fb;
+
+  --bg-background-light-color: #c7c557;
+  --bg-background-darker-color: #7c7553;
+
+  /* ? border-color */
+  --border-accent-color: #946cff;
+
+  /* ? height */
+  --header-height: 15px;
+  --footer-height: 110px;
+  --top-bg-lg-height: 178px;
+  --bottom-bg-lg-height: 178px; /* 138 */
+}

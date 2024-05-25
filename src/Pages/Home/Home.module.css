@@ -1,0 +1,91 @@
+.main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  --width-container: 310px;
+}
+
+.title {
+  text-transform: uppercase;
+  margin: 14px 0 0;
+}
+
+.money {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.coin {
+  width: 46px;
+  height: 42px;
+}
+
+.coinAnimation {
+  z-index: 2;
+  position: absolute;
+  width: 92px;
+  height: 84px;
+  transition: all 0.5s linear;
+  animation: snakeMotion 1.5s linear forwards;
+}
+
+@keyframes snakeMotion {
+  0% {
+    transform: translateY(0);
+    opacity: 0.8;
+  }
+  25% {
+    transform: translateY(-15px) translateX(2px);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-30px) translateX(-2px);
+    opacity: 0.4;
+  }
+  75% {
+    transform: translateY(-45px) translateX(2px);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(-60px);
+    opacity: 0;
+  }
+}
+
+.viking {
+  z-index: 1;
+  margin-top: calc(
+    50vh - var(--header-height) - 52px - 33px - 57px - 14px - 44px - 170px
+  );
+  width: 100%;
+  max-width: 419px;
+  height: 342px;
+  position: relative;
+}
+
+.viking_body {
+  position: absolute;
+  width: 270px;
+  height: 308px;
+  right: 123px;
+}
+
+.viking_arm {
+  position: absolute;
+  bottom: 46px;
+  right: 233px;
+  width: 85px;
+  height: 147px;
+}
+
+.rock {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 299px;
+  height: 234px;
+}
